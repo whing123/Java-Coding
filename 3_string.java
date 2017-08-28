@@ -17,7 +17,7 @@ public class HelloWorld {
     	int b = Integer.parseInt(B);
     	for(int i = 0; i < A.length(); ++i){
     		a = Integer.parseInt(pre + A.substring(i, i+1));
-    		if(a < b && i+1 < A.length()){  //ºóÒÆÒ»Î»
+    		if(a < b && i+1 < A.length()){  //åŽç§»ä¸€ä½
     			res += "0";
     			a = Integer.parseInt(A.substring(i, i+2));
     			i++;
