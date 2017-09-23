@@ -1,3 +1,11 @@
+/* *题目：
+ *  部分 A+B
+ * *思路：
+ *  先找出两个子数字String，若无则0，然后长范围整数相加
+ * *技法：
+ *  substring的使用，int to String，长范围整数相加
+ */
+
 import java.util.Scanner;
 
 public class HelloWorld {

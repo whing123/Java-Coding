@@ -1,3 +1,11 @@
+/* *题目：
+ *  月饼
+ * *思路：
+ *  先求出每种月饼的单价，以单价优先的原则进行排序，同时对应的原价和库存也要排序，最后售卖。
+ * *技法：
+ *  冒泡排序，格式化输出
+ */
+
 import java.util.Scanner; 
 
 public class HelloWorld {
@@ -22,8 +30,8 @@ public class HelloWorld {
     	
     	// sort mao pao
     	double temp = 0;
-    	for (int i = N-1; i > 0; i--) {
-    		for (int j = 0; j < i; j++) {
+    	for (int i = N-1; i > 0; i--) { // how many times N - 1
+    		for (int j = 0; j < i; j++) { // j + 1 < N - i, i [0, N-1)
     		    if(perPrice[j] < perPrice[j+1]){
     		    	temp = perPrice[j];
     		    	perPrice[j] = perPrice[j+1];

@@ -1,3 +1,12 @@
+/* *题目：
+ *  A+B 和 C
+ * *思路：
+ *  为避免溢出，使用长整型数
+ * *技法：
+ *  输入长整数
+ */
+
+
 import java.util.Scanner;
 
 public class HelloWorld {

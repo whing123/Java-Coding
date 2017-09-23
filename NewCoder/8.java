@@ -1,3 +1,11 @@
+/* *题目：
+ *  个位数统计
+ * *思路：
+ *  遍历字符串，用map累计每种数字出现的次数，最后遍历map输出
+ * *技法：
+ *  升序Map TreeMap的插入和遍历，char to int
+ */
+
 import java.util.Scanner; 
 import java.util.Map;
 import java.util.TreeMap;

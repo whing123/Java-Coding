@@ -1,3 +1,11 @@
+/* *题目：
+ *  组个最小数
+ * *思路：
+ *  将0到9从左往右排列，大数在右小数在左，用第一个非0数替代leading 0
+ * *技法：
+ *  StringBuffer的使用，append()，leading 0的处理
+ */
+
 
 import java.util.*;
 

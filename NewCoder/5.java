@@ -1,3 +1,11 @@
+/* *题目：
+ *  锤子剪刀布
+ * *思路：
+ *  尝试所有AB输赢的情况，统计每人的输赢以及出牌获胜情况
+ * *技法：
+ *  字符串equals比较，数组中找最大数并记录其index
+ */
+
 import java.util.Scanner;
 
 public class HelloWorld {
@@ -75,6 +83,7 @@ public class HelloWorld {
     	in.close();
     }
     
+    // find max
     public static void check(int [] m){
     	
     	int cnt = 0;

@@ -1,3 +1,11 @@
+/* *题目：
+ *  数字黑洞
+ * *思路：
+ *  先检查四个数字是否相等的特殊情况，然后对字符串的字符升序降序排列，转成int作差输出，下一循环又转成4位字符串
+ * *技法：
+ *  字符串format转换，字符串到字符数组转换，字符数组排序与手动降序，String to int，格式化输出
+ */
+
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -16,12 +24,13 @@ public class HelloWorld {
     		}
     	}
     	
-    	// 3333
+    	// e.g. 3333 6666
     	if(cnt == A.length() && cnt > 3){
     		System.out.printf("%04d - %04d = 0000", Integer.parseInt(A), Integer.parseInt(A));
     		return;
     	}
     	
+        // e.g. 333 33 3 to 0333 0033 0003
     	A = String.format("%04d", Integer.parseInt(A));
     	
     	while(true){
@@ -29,7 +38,7 @@ public class HelloWorld {
     		Arrays.sort(a);   // ascending
     		String A1 = String.valueOf(a);
     		
-    		// descending
+    		// from ascending to descending
     		for(int i = 0; i < a.length / 2; i++)
     		{
     		    char temp = a[i];
@@ -39,7 +48,7 @@ public class HelloWorld {
     		String A2 = String.valueOf(a);
     		
     		int res = Integer.parseInt(A2) - Integer.parseInt(A1);
-    		A = String.format("%04d", res);
+    		A = String.format("%04d", res); // do not forget
     		
     		System.out.printf(A2 + " - " + A1 + " = " + A + "\n");	
     		

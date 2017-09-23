@@ -1,3 +1,11 @@
+/* *题目：
+ *  D进制的A+B
+ * *思路：
+ *  短除法实现10进制转2到10进制
+ * *技法：
+ *  10进制转2到10进制，短除法，String和int的转换，StringBuffer的反转
+ */
+
 import java.util.Scanner; 
 
 public class HelloWorld {

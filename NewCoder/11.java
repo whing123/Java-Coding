@@ -1,3 +1,11 @@
+/* *题目：
+ *  德才论
+ * *思路：
+ *  先将成绩不合格的排除，统计有效个数。再将学生分为4类，依据排序优先要求实现比较器。
+ * *技法：
+ *  自定义比较器，sort函数，list及其遍历，toString的重写
+ */
+
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList; 

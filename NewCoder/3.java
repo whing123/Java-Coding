@@ -1,3 +1,11 @@
+/* *题目：
+ *  A 除以 B
+ * *思路：
+ *  按数学除法式子，除不了要补0，注意去除前导0
+ * *技法：
+ *  输入字符串，String与int互转，substring
+ */
+
 import java.util.Scanner;
 
 public class HelloWorld {
@@ -36,6 +44,7 @@ public class HelloWorld {
     		
     	}
     	
+        // remove leading 0
     	if(res.charAt(0) == '0'){
     		res = res.substring(1);
     	}

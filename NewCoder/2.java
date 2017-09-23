@@ -1,3 +1,11 @@
+/* *题目：
+ *  数字分类
+ * *思路：
+ *  对输入的每个整数进行判断和处理
+ * *技法：
+ *  输入整数
+ */
+
 import java.util.Scanner;
  
 public class Main {

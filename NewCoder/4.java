@@ -1,3 +1,11 @@
+/* *题目：
+ *  数素数
+ * *思路：
+ *  实现素数判断方法，先找到第M个，再接着找N-M个
+ * *技法：
+ *  素数判断
+ */
+
 import java.util.Scanner;
 
 public class HelloWorld {
@@ -25,6 +33,7 @@ public class HelloWorld {
     	int count = N - M + 1;
     	int prime = 0;
     	
+        // find Mth prime
     	for(int i = 2; ; ++i){
     		if(isPrime(i)){
     			cnt++;
@@ -35,6 +44,7 @@ public class HelloWorld {
     		}
     	}
     	
+        // find next N-M+1 primes
     	cnt = 0;
     	for(int i = prime; ; ++i){
     		if(isPrime(i)){
