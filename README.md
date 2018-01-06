@@ -1,6 +1,7 @@
 # Java-Coding
-source codes  
-## New Coder:   
+Java source codes  
+
+## NewCoder:   
 
 |序号  |    题目  |                 描述                        |
 |:----|:--------:|:-------------------------------------------:|
@@ -21,4 +22,11 @@ source codes
 |15  |组个最小数|StringBuffer的使用，append()，leading 0的处理|  
 |16  |旧键盘|LinkedHashMap记录输入顺序，Map插入与遍历|	
 |17  |查验身份证|判断字符是否在0-9，char to int|
-|18  |挖掘机技术哪家强|Map的插入与访问|			 		
+|18  |挖掘机技术哪家强|Map的插入与访问|  
+|19  |旧键盘打字|HashSet的使用，add，contains，char大小写转换，字母数字判断|  
+|20  |完美数列|Arrays.sort(数组)|  	
+|21  |放苹果|动态规划|  
+|22  |最长递增子序列|动态规划|  
+|23  |最长公共子序列|动态规划|  
+|24  |对称矩阵||
+		 		
